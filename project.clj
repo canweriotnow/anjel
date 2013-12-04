@@ -1,5 +1,5 @@
-(defproject anjel "0.1.0-SNAPSHOT"
-  :description "A Clojure wrapper for the AngelList API"
+(defproject anjel "0.0.1"
+  :description "A Clojure client for the AngelList API"
   :url "https://github.com/canweriotnow/anjel"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
