@@ -11,5 +11,3 @@
 
 (defn find [id]
   (json/read-str (:body (find-raw id)) :key-fn keyword))
-
-(:name (find 195898))

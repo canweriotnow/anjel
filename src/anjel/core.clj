@@ -10,6 +10,3 @@
                (:id)
                (startups/find)))))
 
-(find-startup "eduwampus")
-
-(empty? (search/lookup "estuary" :startup))
