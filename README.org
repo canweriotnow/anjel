@@ -1,0 +1,30 @@
+* anjel
+
+A Clojure client for the [[https://angel.co/api][AngelList API]]
+
+** Usage
+
+Add to your project.clj:
+
+=[anjel "0.0.1"]=
+
+Then:
+
+#+BEGIN_SRC clojure
+
+    (require '[anjel.core :as anjel])
+
+    (anjel/find-startup "a startup")
+#+END_SRC
+
+Return will be =nil= if no matches are found, or a hash of the
+attributes of the first matching startup.
+
+Honestly, I wouldn't use this in production yet. Work in progress.
+
+** License
+
+Copyright © 2013-2016 Jason Lewis
+
+Distributed under the Eclipse Public License either version 1.0 or (at
+your option) any later version.
