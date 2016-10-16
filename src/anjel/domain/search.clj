@@ -1,4 +1,4 @@
-(ns anjel.search
+(ns anjel.domain.search
   (:require [clj-http.client :as client]
             [clojure.data.json :as json]))
 
@@ -16,8 +16,3 @@
 
 (defn lookup [entity-name entity-type]
   (json/read-str (:body (lookup-raw entity-name entity-type)) :key-fn keyword))
-
-
-
-
-

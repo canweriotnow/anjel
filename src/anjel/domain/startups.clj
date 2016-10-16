@@ -1,4 +1,4 @@
-(ns anjel.startups
+(ns anjel.domain.startups
   (:refer-clojure :exclude [find])
   (:require [clj-http.client :as client]
             [clojure.data.json :as json]))
